@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/LandingPage/static/css/main.fb56db6d.chunk.css",
+    "main.js": "/LandingPage/static/js/main.e7c10c3b.chunk.js",
+    "main.js.map": "/LandingPage/static/js/main.e7c10c3b.chunk.js.map",
+    "runtime-main.js": "/LandingPage/static/js/runtime-main.10de4cb6.js",
+    "runtime-main.js.map": "/LandingPage/static/js/runtime-main.10de4cb6.js.map",
+    "static/js/2.fb1e3dab.chunk.js": "/LandingPage/static/js/2.fb1e3dab.chunk.js",
+    "static/js/2.fb1e3dab.chunk.js.map": "/LandingPage/static/js/2.fb1e3dab.chunk.js.map",
+    "static/js/3.95d807be.chunk.js": "/LandingPage/static/js/3.95d807be.chunk.js",
+    "static/js/3.95d807be.chunk.js.map": "/LandingPage/static/js/3.95d807be.chunk.js.map",
+    "index.html": "/LandingPage/index.html",
+    "static/css/main.fb56db6d.chunk.css.map": "/LandingPage/static/css/main.fb56db6d.chunk.css.map",
+    "static/js/2.fb1e3dab.chunk.js.LICENSE.txt": "/LandingPage/static/js/2.fb1e3dab.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/LandingPage/static/media/Avenir-Regular.75d8c490.otf",
+    "static/media/appView.5875e8a4.png": "/LandingPage/static/media/appView.5875e8a4.png",
+    "static/media/apple.64de78a5.svg": "/LandingPage/static/media/apple.64de78a5.svg",
+    "static/media/contact.81a2c088.svg": "/LandingPage/static/media/contact.81a2c088.svg",
+    "static/media/facebook.76c160a3.svg": "/LandingPage/static/media/facebook.76c160a3.svg",
+    "static/media/googlePlay.2d4bf475.svg": "/LandingPage/static/media/googlePlay.2d4bf475.svg",
+    "static/media/hauskey.d0c9232a.svg": "/LandingPage/static/media/hauskey.d0c9232a.svg",
+    "static/media/hero.618ad284.svg": "/LandingPage/static/media/hero.618ad284.svg",
+    "static/media/insta.67586095.svg": "/LandingPage/static/media/insta.67586095.svg",
+    "static/media/linkedin.5265c3d3.svg": "/LandingPage/static/media/linkedin.5265c3d3.svg",
+    "static/media/listing.8001960b.svg": "/LandingPage/static/media/listing.8001960b.svg",
+    "static/media/map.7e78873f.svg": "/LandingPage/static/media/map.7e78873f.svg",
+    "static/media/plus.bbb08f85.svg": "/LandingPage/static/media/plus.bbb08f85.svg",
+    "static/media/search.e1554ccb.svg": "/LandingPage/static/media/search.e1554ccb.svg",
+    "static/media/twitter.01999dcb.svg": "/LandingPage/static/media/twitter.01999dcb.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.10de4cb6.js",
+    "static/js/2.fb1e3dab.chunk.js",
+    "static/css/main.fb56db6d.chunk.css",
+    "static/js/main.e7c10c3b.chunk.js"
+  ]
+}
