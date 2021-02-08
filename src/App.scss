@@ -1,0 +1,146 @@
+@import "./assets/partials/partials.scss";
+
+/*** GENERAL SETTING ***/
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    max-width: $desktop;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    @include font($font-normal, 16px, 1.5);
+    color: $dark-gray;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    @include flex(row);
+    @include position(fixed, 0, 50%);
+    background-color: $dark-blue;
+    padding: 0 $rem-16;
+    max-width: $desktop;
+    width: 100%;
+    height: 60px;
+    transform: translate(-50%, 0%);
+    z-index: 5;
+}
+
+.nav {
+    @include flex(row, center);
+    margin-left: auto;
+}
+
+.footer {
+    @include flex(row, space-evenly, center);
+    background-color: $dark-blue;
+    height: 60px;
+}
+
+.block {
+    @include flex(row, center, center);
+    height: 100vh;
+
+    &--dark {
+        background-color: $dark-blue;
+    }
+
+    &--light {
+        background-color: $light-gray;
+    }
+
+    &__title {
+        margin: 0 auto $rem-8;
+        font-size: $rem-40;
+
+        &--dark {
+            color: $dark-blue;
+        }
+
+        &--light {
+            color: $white;
+        }
+    }
+
+    &__caption {
+        display: block;
+        margin-bottom: $rem-8;
+        @include font($font-bold, $rem-14);
+        color: $green;
+    }
+
+    &__desc {
+        margin: 0 auto $rem-24;
+
+        &--dark {
+            color: $dark-gray;
+        }
+
+        &--light {
+            color: $white;
+        }
+    }
+}
+
+.btn {
+    position: relative;
+    border: none;
+    background-color: $light-blue;
+    margin-right: $rem-16;
+    padding: $rem-12 $rem-16;
+    font-size: $rem-14;
+    color: $white;
+
+    &::after {
+        content: "";
+        @include position(absolute, -$rem-4, -$rem-4);
+        border: 2px solid $white;
+        width: 100%;
+        height: 100%;
+        transition: top 1s, left 1s;
+    }
+
+    &:hover::after {
+        top: 0;
+        left: 0;
+    }
+
+    &--dark {
+        &::after {
+            border: 2px solid $dark-blue;
+        }
+    }
+
+    &__icon {
+        margin: -$rem-8 $rem-8 0 -$rem-8;
+        max-width: 20px;
+        width: 100%;
+    }
+}
+
+.err {
+    font-size: $rem-12;
+    color: $red;
+}
+
+.success {
+    color: $light-blue;
+}

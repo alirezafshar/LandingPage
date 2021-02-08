@@ -1,0 +1,18 @@
+$font-normal: "avenir-normal";
+$font-avg: "avenir-avg";
+$font-bold: "avenir-bold";
+
+@font-face {
+    font-family: $font-normal;
+    src: url(../fonts/Avenir-Regular.otf);
+}
+
+@font-face {
+    font-family: $font-avg;
+    src: url(../fonts/Avenir-Demi.otf);
+}
+
+@font-face {
+    font-family: $font-bold;
+    src: url(../fonts/Avenir-Bold.otf);
+}

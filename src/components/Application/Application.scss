@@ -1,0 +1,41 @@
+@import "../../assets/partials/partials.scss";
+
+.app {
+    &__contents {
+        margin-left: $rem-60;
+        width: 30%;
+    }
+
+    &__fig {
+        @include flex(row, flex-end, flex-end);
+        position: relative;
+        margin: 0;
+        width: 70%;
+        height: 100%;
+
+        &::before {
+            content: "";
+            position: absolute;
+            border: $rem-8 solid $gold;
+            margin-right: $rem-24;
+            width: 45%;
+            height: 70%;
+            animation: 2s alternate infinite border;
+        }
+
+        @keyframes border {
+            from {
+                right: -10px;
+            }
+            to {
+                right: 0;
+            }
+        }
+    }
+
+    &__img {
+        margin-right: 5%;
+        width: 55%;
+        z-index: 1;
+    }
+}

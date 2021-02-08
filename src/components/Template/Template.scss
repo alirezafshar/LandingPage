@@ -1,0 +1,36 @@
+@import "../../assets/partials/partials.scss";
+
+.logo {
+    margin: 0 $rem-16;
+
+    &__img {
+        height: 100%;
+    }
+}
+
+.navbar {
+    @include flex(row, center, center);
+    margin: 0;
+    padding: 0;
+
+    &__item {
+        @include flex(row);
+        margin: 0 $rem-8;
+        height: 100%;
+    }
+
+    &__list {
+        @include flex(row, "", center);
+        border-bottom: 2px solid $dark-blue;
+        font-size: $rem-14;
+        color: $white;
+
+        &:hover {
+            color: $light-gray;
+        }
+
+        &--active {
+            border-bottom: 2px solid $green;
+        }
+    }
+}

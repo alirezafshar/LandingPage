@@ -1,0 +1,20 @@
+@import "../../assets/partials/partials.scss";
+
+.about {
+    &__contents {
+        margin-left: $rem-60;
+        width: 30%;
+    }
+
+    &__fig {
+        @include flex(row, flex-end);
+        margin: 0;
+        width: 70%;
+    }
+
+    &__img {
+        object-fit: cover;
+        width: 80%;
+        height: 100vh;
+    }
+}

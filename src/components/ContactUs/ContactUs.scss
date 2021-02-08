@@ -1,0 +1,40 @@
+@import "../../assets/partials/partials.scss";
+
+.contact {
+    &__contents {
+        margin-top: $rem-24;
+        margin-right: $rem-60;
+        width: 40%;
+    }
+
+    &__fig {
+        @include flex(row, center);
+        margin: $rem-24 0 0;
+        width: 60%;
+    }
+
+    &__img {
+        width: 65%;
+    }
+}
+
+.form__title {
+    color: $green;
+}
+
+.form__control {
+    margin: 4px auto;
+    padding: 0 1rem;
+    width: 100%;
+    height: 36px;
+}
+
+.form__control::placeholder {
+    color: $dark-gray;
+}
+
+.form__textarea {
+    padding-top: 0.5rem;
+    resize: none;
+    height: 120px;
+}
