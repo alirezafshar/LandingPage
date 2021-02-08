@@ -61,10 +61,10 @@ class Home extends Component {
                     </figure>
                     <nav className="nav">
                         <ul className="navbar">
-                            <li className="navbar__item"><Link to="/" className={`navbar__list ${(active === "about") ? "navbar__list--active" : ""}`} onClick={() => this.handlerNav(this.refAbout)}>What We Do</Link></li>
-                            <li className="navbar__item"><Link to="#features" className={`navbar__list ${(active === "feature") ? "navbar__list--active" : ""}`} onClick={() => this.handlerNav(this.refFeature)}>Our Features</Link></li>
-                            <li className="navbar__item"><Link to="#application" className={`navbar__list ${(active === "app") ? "navbar__list--active" : ""}`} onClick={() => this.handlerNav(this.refApp)}>Application</Link></li>
-                            <li className="navbar__item"><Link to="#contactus" className={`navbar__list ${(active === "contact") ? "navbar__list--active" : ""}`} onClick={() => this.handlerNav(this.refContact)}>Contact Us</Link></li>
+                            <li className="navbar__item"><Link to="/#aboutus" className={`navbar__list ${(active === "about") ? "navbar__list--active" : ""}`} onClick={() => this.handlerNav(this.refAbout)}>What We Do</Link></li>
+                            <li className="navbar__item"><Link to="/#features" className={`navbar__list ${(active === "feature") ? "navbar__list--active" : ""}`} onClick={() => this.handlerNav(this.refFeature)}>Our Features</Link></li>
+                            <li className="navbar__item"><Link to="/#application" className={`navbar__list ${(active === "app") ? "navbar__list--active" : ""}`} onClick={() => this.handlerNav(this.refApp)}>Application</Link></li>
+                            <li className="navbar__item"><Link to="/#contactus" className={`navbar__list ${(active === "contact") ? "navbar__list--active" : ""}`} onClick={() => this.handlerNav(this.refContact)}>Contact Us</Link></li>
                         </ul>
                     </nav>
                 </header>
